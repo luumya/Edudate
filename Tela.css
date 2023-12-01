@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body{
+       height: 100vh;
+   }
+   nav.menu_Lateral{
+       width: 70px;
+       height:100%;
+       background-color: white;
+       padding-top: 50px;      
+       box-shadow: 1px 0 0 black;
+       position: fixed;
+       top: 0;
+       left: 0;
+       overflow: hidden;
+       transition: .5s;
+       color: #090C53;
+       z-index: 5;
+   }
+   nav.menu_Lateral:hover{
+       width: 300px;
+       z-index: 5;
+   }
+   .btn_expandir{
+       width: 100%;
+       padding-left: 10px;
+   }
+   .btn_expandir > i{
+       color: black;
+       font-size: 24px;
+       cursor: pointer;
+   }
+   ul{
+       height: 100%;
+       list-style-type: none;
+   
+   }
+   ul li.item_menu{
+       transition: .5s;
+   }
+   ul li.ativo{
+       background-color:#D1D5F5;
+       margin-left: 0px;
+       
+   }
+   ul li.item_menu:hover{
+       background-color:#D1D5F5;
+   
+   
+   }
+   ul li.item_menu a{
+       color:black;
+       text-decoration: none;
+       font-size: 20px;
+       padding: 20px 4%;
+       display: flex;
+       margin-bottom: 20px;
+       line-height: 40px;
+   
+       
+   }
+   nav.menu_Lateral:hover .txt-link{
+       margin-left: 40px;
+   }
+   
+   ul li.item_menu a .txt-link{
+       margin-left: 70px;
+       transition: .5s;
+   }
+   ul li.item_menu a .icon > i{
+       font-size: 30px;
+       margin-left: 10px;
+   }
+   .Tela{
+    margin-top: 30px;
+    margin-left: 250px; 
+    margin-bottom: 40px;   
+    line-height: 80px;
+    font-size: 100px;
+    color: #090C53;
+   }
+   p{
+    
+    position: absolute;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 230px;
+    color: #090C53;
+
+   }
+    /* Estilos para os botões de rádio */
+    .radio-group {
+        color: #090C53;
+       font-size: 25;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 250px
+      }
+  
+      .radio-item {
+        color: #090C53;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        
+      }
+  
+      input[type="radio"] {
+        margin-right: 5px;
+      }
+  
+      /* Estilos para o texto ao lado dos botões */
+      .option-text {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+.box{
+    display: inline;
+}
+
+.box2{
+    color: #090C53;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left:230px;
+    display: block;
+}
+.rectangle {
+    margin-top: 20px;
+    margin-left: 200px;
+    padding-top: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow:  2px 2px 4px 1px lightgray;
+}

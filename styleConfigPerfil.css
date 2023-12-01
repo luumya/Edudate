@@ -1,0 +1,145 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+nav.menu_Lateral{
+    width: 70px;
+    height:100%;
+    background-color: white;
+    padding-top: 50px;      
+    box-shadow: 1px 0 0 black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+    color: #090C53;
+}
+nav.menu_Lateral:hover{
+    width: 300px;
+}
+.btn_expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.btn_expandir > i{
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+ul li.item_menu{
+    transition: .5s;
+}
+ul li.ativo{
+    background-color:#D1D5F5;
+    margin-left: 0px;
+    
+}
+ul li.item_menu:hover{
+    background-color:#D1D5F5;
+
+
+}
+ul li.item_menu a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+
+    
+}
+nav.menu_Lateral:hover .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item_menu a .txt-link{
+    margin-left: 70px;
+    transition: .5s;
+}
+ul li.item_menu a .icon > i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+h1{
+    margin: 30px;    
+    text-align: center; 
+    line-height: 80px;
+    font-size: 100px;
+    color: #090C53;
+}
+.Perfil{
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 80px;
+  color: 090C53;
+
+}
+.ConfigTela{
+   background-color: rgb(255, 255, 255);
+   width: 40%;
+   float: right;
+   text-align: center;
+   display:inline;
+   font-size: 50px;
+   margin-top: 50px;
+   margin-right: 50px;
+   color: #090C53;
+}
+.botão{
+    background-color: #D1D5F5;
+    border: none;
+    color: #090C53;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+    box-shadow:  2px 2px 4px 1px lightgray;
+    
+}
+.texto_botão{
+    padding: 50px;
+
+    
+
+}
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  
+  p {
+    color: #666;
+    margin: 10px 0;
+  }
+   
+

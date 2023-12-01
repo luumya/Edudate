@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modelo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+
+
+</head>
+<body>
+    <nav class="menu_Lateral ">
+        <!-- <div class="btn_expandir"> -->
+            <!-- <i class="bi bi-list-ul"></i> -->
+
+        <!-- </div> -->
+        <ul>
+            <li class="item_menu">   
+                <a href="./calendario/home.html">      
+                  <span class="icon"><i class="bi bi-journal-bookmark"></i></span> 
+                  <span class="txt-link">Home</span>
+                </a>
+        
+             </li>
+             
+            <li class="item_menu "> 
+                <a href="configperfil.html">      
+                  <span class="icon"><i class="bi bi-gear-fill"></i></i></i></i></span> 
+                  <span class="txt-link">Configurações</span>
+                </a>
+            </li>
+            <li class="item_menu ativo"> 
+                <a href="../modelo.html">    
+                  <span class="icon"><i class="bi bi-columns"></i></span>  
+                 <span class="txt-link">Eventos</span> 
+                </a> 
+            </li>
+        </ul>
+
+
+    </nav>
+
+    <script src="menu.js">
+        
+    </script>
+ <header>
+    
+    <div class="Evento_logo">
+        <i class="bi bi-columns-gap" id="logo"></i>
+           <i class="texto_evento" id="txt_evento"> Adicionar Eventos </i>
+     </div>     
+    <hr>
+    <form>
+        <!-- <fieldset> -->
+
+            <div class="box">
+                <label> Nome do Evento </label>
+                <input type="text"  name="nome_Evento" id="nome_Evento">
+            </div>
+        <!-- </fieldset> -->
+        <!-- <fieldset> -->
+            <div class="box" id="box2">
+                <label for="prioridade">Prioridade</label>
+                <select name="escolha" id="escolha">
+                    <option value="opc1">Alta</option>
+                    <option value="opc2">Media</option>
+                    <option value="opc3">Baixa</option>
+                </select>
+            </div>
+            <div class="box3">
+                <label for="data">Data</label>
+                <br>
+                <input type="date" id="hora" name="data"required>
+            </div>
+            <div class="box4"><label> Local </label>
+                <input type="text"  name="local" id="local"></div>
+            <div  class="box5">
+                <br>
+                <p class="até2">Hora</p> <br><br>
+                <input type="number" id="hora" name="hora" min="0" max="23" placeholder="00" required>
+
+                <p class="separação">:</p>
+                
+                <input type="number" id="minuto" name="minuto" min="0" max="59" placeholder="00" required>
+                <br>
+                <p class="até">até</p> <br>
+                <input type="number" id="hora" name="hora" min="0" max="23" placeholder="00" required>
+
+                <p class="separação">:</p>
+                
+                <input type="number" id="minuto" name="minuto" min="0" max="59" placeholder="00" required>
+                
+            </div>
+            <div class="box6">
+                <button type="submit">Enviar</button>
+            </div>
+            <div>
+                <label>Descrição </label>
+                <input type="text"  name="descrição" id="descrição">
+                
+            </div>
+            
+        <!-- </fieldset> -->
+         
+
+
+    </form>
+
+
+
+
+ </header>
+</body>

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #090C53;
+    font-size: 25px;
+   }
+   #txt_evento{
+    font-size: 50px;
+    
+
+   }
+   
+   body{
+       height: 100vh;
+   }
+   nav.menu_Lateral{
+       width: 70px;
+       height:100%;
+       background-color: white;
+       padding-top: 50px;      
+       box-shadow: 1px 0 0 black;
+       position: fixed;
+       top: 0;
+       left: 0;
+       overflow: hidden;
+       transition: .5s;
+       color: #090C53;
+   }
+   nav.menu_Lateral:hover{
+       width: 300px;
+   }
+   .btn_expandir{
+       width: 100%;
+       padding-left: 10px;
+   }
+   .btn_expandir > i{
+       color: black;
+       font-size: 24px;
+       cursor: pointer;
+   }
+   ul{
+       height: 100%;
+       list-style-type: none;
+   
+   }
+   ul li.item_menu{
+       transition: .5s;
+   }
+   ul li.ativo{
+       background-color:#D1D5F5;
+       margin-left: 0px;
+       
+   }
+   ul li.item_menu:hover{
+       background-color:#D1D5F5;
+   
+   
+   }
+   ul li.item_menu a{
+       color:black;
+       text-decoration: none;
+       font-size: 20px;
+       padding: 20px 4%;
+       display: flex;
+       margin-bottom: 20px;
+       line-height: 40px;
+   
+       
+   }
+   nav.menu_Lateral:hover .txt-link{
+       margin-left: 40px;
+   }
+   
+   ul li.item_menu a .txt-link{
+       margin-left: 70px;
+       transition: .5s;
+   }
+   ul li.item_menu a .icon > i{
+       font-size: 30px;
+       margin-left: 10px;
+   }
+   #txt_evento{
+    font-size: 100px;
+   }
+   .Evento_logo{
+   margin-top: 30px;
+   margin-left: 250px; 
+   margin-bottom: 40px;   
+   line-height: 80px;
+   font-size: 100px;
+   color: #090C53;
+   
+   }
+   #logo{
+    
+    padding-right: 30px;
+    font-size: 100px;
+    color: #F2BD00;    
+    margin-bottom: 40px;   
+    line-height: 80px;
+   }
+   label{
+    width: 35%;
+    margin-top: 20px;
+    display: block;
+    margin-left: 250px;
+   }
+   #nome_Evento{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;    
+    text-align: center; 
+    line-height: 50px;
+    font-size: 20px;
+    color: #090C53;
+   }
+   
+   #hora{
+    margin-bottom: 20px;
+    margin-left: 250px;    
+    text-align: center; 
+    line-height: 50px;
+    font-size: 30px;
+    color: #090C53;
+   }
+   #minuto{    
+    text-align: center; 
+    line-height: 50px;
+    font-size: 30px;
+    color: #090C53;
+   }
+   .separação{
+    display: inline;
+   }
+   .até{
+    display: inline; 
+    margin-left: 350px;    
+   }
+   .até2{
+    display: inline; 
+    margin-left: 250px;    
+   }
+   #descrição{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;    
+    text-align: center; 
+    line-height: 50px;
+    font-size: 20px;
+    color: #090C53;
+    display: inline;
+
+   }
+   #prioridade{
+    display: inline-block;
+
+   }
+   .box{
+    display: inline-block;
+    
+    
+   }
+   select{
+    width: 200px;
+    margin-left: 250px;
+    margin-top: 20px;
+    font-size: 25px;
+
+   }
+   #box2{
+    margin-left: 150px;
+   }
+   .box3{
+    display: inline-block;
+    padding-bottom: 20px;    
+   }
+   .box4{
+    display: inline-block;
+    
+    margin-left: 165px;
+   }
+   #local{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;    
+    text-align: center; 
+    line-height: 50px;
+    font-size: 20px;
+    color: #090C53;
+   }
+   .box5{
+    display: inline;
+    margin-top: 20px;
+    
+   }
+   .box6{
+    display: inline;
+    margin-left: 435px;
+   }
+   button{
+    padding: 20px 60px;
+    font-size: 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: #F0EAD6;
+    color: #090C53;
+    
+   }
+   input{
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 24px;
+    box-shadow:  2px 2px 4px 1px lightgray;
+    color: #090C53;
+
+   }
+   select{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 24px;
+    box-shadow:  2px 2px 4px 1px lightgray;
+    color: #090C53;
+   }

@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body{
+       height: 100vh;
+   }
+   nav.menu_Lateral{
+       width: 70px;
+       height:100%;
+       background-color: white;
+       padding-top: 50px;      
+       box-shadow: 1px 0 0 black;
+       position: fixed;
+       top: 0;
+       left: 0;
+       overflow: hidden;
+       transition: .5s;
+       color: #090C53;
+   }
+   nav.menu_Lateral:hover{
+       width: 300px;
+   }
+   .btn_expandir{
+       width: 100%;
+       padding-left: 10px;
+   }
+   .btn_expandir > i{
+       color: black;
+       font-size: 24px;
+       cursor: pointer;
+   }
+   ul{
+       height: 100%;
+       list-style-type: none;
+   
+   }
+   ul li.item_menu{
+       transition: .5s;
+   }
+   ul li.ativo{
+       background-color:#D1D5F5;
+       margin-left: 0px;
+       
+   }
+   ul li.item_menu:hover{
+       background-color:#D1D5F5;
+   
+   
+   }
+   ul li.item_menu a{
+       color:black;
+       text-decoration: none;
+       font-size: 20px;
+       padding: 20px 4%;
+       display: flex;
+       margin-bottom: 20px;
+       line-height: 40px;
+   
+       
+   }
+   nav.menu_Lateral:hover .txt-link{
+       margin-left: 40px;
+   }
+   
+   ul li.item_menu a .txt-link{
+       margin-left: 70px;
+       transition: .5s;
+   }
+   ul li.item_menu a .icon > i{
+       font-size: 30px;
+       margin-left: 10px;
+   }
+   #logo{
+    font-size: 100px;
+    color: #F2BD00;
+    
+    margin-bottom: 40px;   
+    line-height: 80px;
+    
+
+
+   }
+   .text_perfil{
+    margin-top: 30px;
+    
+
+   }
+   .Perfil_logo{
+    margin-top: 30px;
+    margin-left: 250px; 
+    margin-bottom: 40px;   
+    line-height: 80px;
+    font-size: 50px;
+    color: #090C53;
+}
+h2{
+    margin-left: 110px;
+    font-weight: lighter;    
+    line-height: 0px;
+    font-size: 30px;
+    color: #090C53;
+
+}
+.titulo_nome{
+    margin-top: 50PX;
+    margin-left: 300px;
+    color: #090C53;
+    font-size: 40px;
+    font-weight: bolder
+
+}
+/* Estilos para o retângulo */
+.rectangle {
+    margin-top: 10px;
+    margin-left: 280px;
+    
+    width: 400px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow:  2px 2px 4px 1px lightgray;
+}
+
+  /* Estilos para o texto */
+  .text {
+    padding-left: 350px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #090C53;
+    text-align:left;
+  }
+  .email{
+    margin-top: 30PX;
+    margin-left: 300px;
+    color: #090C53;
+    font-size: 40px;
+    font-weight: bolder
+
+  }
+  .rectangle2{
+    margin-top: 10px;
+    margin-left: 280px;
+    width: 400px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow:  2px 2px 4px 1px lightgray;
+  }
+  .Turma{
+    margin-top: 30PX;
+    margin-left: 300px;
+    color: #090C53;
+    font-size: 40px;
+    font-weight: bolder
+  }
+  .rectangle3{
+    margin-top: 10px;
+    margin-left: 280px;
+    width: 400px;
+    height: 50px;
+    background-color: #ffffff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow:  2px 2px 4px 1px lightgray;
+
+  }
+  .text1{
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 30px;   
+    color: #000000;
+    font-size: 20px;
+  }
+  .text2{
+
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 305px;   
+    color: #000000;
+    font-size: 20px;
+  }
+  .text3{
+    position: absolute;
+    margin-left: 305px;   
+    color: #000000;
+    font-size: 20px;
+    margin-top: 25px;
+    
+
+  }
